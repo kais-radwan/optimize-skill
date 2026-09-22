@@ -1,0 +1,19 @@
+{
+  "name": "optimize-skill",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A profile-guided compiler for AI agent skills. Compiles repetitive agent cognition into code, Jev semantic decisions, and existing tools.",
+  "scripts": {
+    "jev:probe": "bun .claude/skills/optimize-skill/scripts/jev-probe.ts",
+    "creds": "bun .claude/skills/optimize-skill/scripts/resolve-jev-credentials.ts",
+    "traces:find": "bun .claude/skills/optimize-skill/scripts/find-traces.ts",
+    "traces:extract": "bun .claude/skills/optimize-skill/scripts/extract-runs.ts",
+    "traces:split": "bun .claude/skills/optimize-skill/scripts/make-split.ts",
+    "cost": "bun .claude/skills/optimize-skill/scripts/cost-analysis.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.6.0"
+  }
+}

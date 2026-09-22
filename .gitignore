@@ -1,0 +1,22 @@
+node_modules/
+# never commit secrets or resolved credentials
+.optimize-skill/
+*.key
+.env
+.env.*
+# generated run artifacts (keep the fixture + generated output separate; opt-in commit)
+output/**/*.tmp
+.DS_Store
+bun.lock
+
+# mined run corpora contain private repo content (real diffs/code) — never commit
+output/**/runs*.json
+output/*/runs*.json
+output/*/token-totals.json
+
+# private examples — copied real skills and their generated artifacts reference internal
+# projects/orgs; excluded from the public repo (results are summarized in README.md instead)
+/output/
+.claude/skills/commit/
+.claude/skills/open-pr/
+.claude/skills/module-docs/
