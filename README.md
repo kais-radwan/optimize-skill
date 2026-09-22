@@ -2,8 +2,7 @@
 
 **A profile-guided compiler for AI agent skills.** `/optimize-skill <target>` takes an agent
 skill, mines how it's actually been used from your local agent history, works out which of its steps
-genuinely need a frontier model, and compiles the rest into a small, inspectable helper - while
-never touching human gates, side-effect ordering, or genuinely generative work.
+genuinely need a frontier model, and compiles the rest into a small, inspectable helper using code and Jev nodes - while never touching human gates, side-effect ordering, or genuinely generative work.
 
 It compiles each operation to the cheapest reliable primitive:
 
