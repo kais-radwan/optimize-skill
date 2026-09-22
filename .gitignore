@@ -17,6 +17,7 @@ output/*/token-totals.json
 # private examples — copied real skills and their generated artifacts reference internal
 # projects/orgs; excluded from the public repo (results are summarized in README.md instead)
 /output/
+/fixtures/
 .claude/skills/commit/
 .claude/skills/open-pr/
 .claude/skills/module-docs/

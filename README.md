@@ -94,7 +94,6 @@ Per optimized skill (under `output/<skill>/`, and installed into the skill's own
   scripts/            # jev-client, credential resolver, trace miner, run extractor, split, eval, cost
   references/         # operation-class model, Jev design rules, manifest/report spec
 output/<skill>/       # generated artifacts per optimized skill
-fixtures/             # sample target skills
 ```
 
 ## Design notes & honest caveats
